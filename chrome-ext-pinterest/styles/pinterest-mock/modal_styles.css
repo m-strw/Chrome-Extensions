@@ -31,13 +31,13 @@
     height: 100%;
 }
 
-#left_side {
-    /* background-color: orange; */
+/* #left_side {
+    background-color: orange;
 }
 
 #right_side {
-    /* background-color: blue; */
-}
+    background-color: blue;
+} */
 
 .pint_mock_icon_container {
     width: 32px;
@@ -256,7 +256,7 @@
     font-weight: 700;
 
     color: white;
-    background-color: #E60023;
+    background-color: #7B61FF;
     cursor: pointer;
 }
 
