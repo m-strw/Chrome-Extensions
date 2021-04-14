@@ -21,7 +21,6 @@ document.querySelector('#my_board').addEventListener('click', () => {
 
 // Import x3 Images from board for Popup
 
-function reset_modal() {
 chrome.runtime.sendMessage({
     message: 'get_pins'
 }, response => {
