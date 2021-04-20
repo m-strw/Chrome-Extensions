@@ -165,23 +165,24 @@ function create_pin(pin_details) {
         new_image.classList.add('pin_max_width');
 
         new_pin.innerHTML = `<div class="pin_title">${pin_details.title}</div>
-<div class="pin_modal">
-    <div class="modal_head">
 
-    </div>
+    <div class="pin_modal">
+        <div class="modal_head">
 
-    <div class="modal_foot">
-        <a href=${pin_details.destination} style="text-decoration: none;" target="_blank">
-            <div class="destination">
-                <div class="pint_mock_icon_container">
-                    <img src="./images/pinterest-mock/upper-right-arrow.png" alt="destination" class="pint_mock_icon">
+        </div>
+
+        <div class="modal_foot">
+            <a href=${pin_details.destination} style="text-decoration: none;" target="_blank">
+                <div class="destination">
+                    <div class="pint_mock_icon_container">
+                        <img src="./images/pinterest-mock/upper-right-arrow.png" alt="destination" class="pint_mock_icon">
+                    </div>
+                    <span>${pin_details.destination_title}</span>
                 </div>
-                <span>${pin_details.destination_title}</span>
-            </div>
-        </a>
+            </a>
 
+        </div>
     </div>
-</div>
 
 <div class="pin_image">
 </div>`;
