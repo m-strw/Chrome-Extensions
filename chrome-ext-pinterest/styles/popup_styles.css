@@ -8,23 +8,50 @@
 body {
     margin: 0;
     padding: 0;
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
     /* box-shadow: -7px 19px 34px 0px #000000 15%; */
 
 
 }
 
+p{
+    margin: 0px;
+}
+
+a:link
+{
+  text-decoration:none;
+  color: #000;
+  font-size:15px;
+}
+
+a:visited
+{
+  text-decoration:none;
+  color: #000;
+  font-weight:normal;
+}
+
+a:active
+{
+  text-decoration:none;
+  color: #000;
+}
+
+a:hover
+{
+  text-decoration:none;
+  color: #000;
+}
+
 .nav_popup{
-    background: #F6F7FB;
+    background: #EDEFF1;
     width: 100%;
-    height: 15%; 
+    height: 12%; 
     display:flex;
     flex-direction: row;
-    justify-content:space-between;
-    /* padding-top: 7%;  */
-
-
+    justify-content:flex-end;
 }
 
 
@@ -33,9 +60,9 @@ body {
 #add_pin {
     /* margin: 0px; */
     font-size: 15px;
-    font-weight: 700;
-    color: #7B61FF;
-    padding-left: 10%;
+    font-weight: 600;
+    color: #3A474E;
+    padding-right: 10%;
 }
 
 add_pin :hover {
@@ -44,18 +71,16 @@ add_pin :hover {
 
 #my_board {
     margin: 0px;
-    background-color: #7B61FF;
+    background-color: #3A474E;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 600;
     color: white;
-    /* margin-right: 20%;
-    margin-left: 20%; */
    width: 100px;
    height: 100%;
 }
 
 .section_nav{
-    text-align: right;
+    text-align: left;
 }
 
 .title_text{
@@ -100,6 +125,63 @@ button{
     background: #FFFFFF;
     overflow: hidden;
 
+}
+
+.text_popup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 0px;
+    margin-left: 10%;
+    margin-right: 15%;
+}
+
+
+
+.welcome{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+
+.big_intro{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+.green_intro{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4EAD54;
+}
+.img{
+    height: 156px;
+    width: 311px;
+    left: 0px;
+    top: 147.30859375px;
+}
+
+.feedback{
+    top: 363px;
+    border-radius: 2px;
+    padding: 8px, 40px, 8px, 40px;
+    background: #FFFFFF;
+    border: 1.19px solid #484848;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
 }
 
 /* button {

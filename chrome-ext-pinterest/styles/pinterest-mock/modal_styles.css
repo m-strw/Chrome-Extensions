@@ -14,7 +14,7 @@
     padding: 35px;
     width: 880px;
     height: 674px;
-    border-radius: 16px;
+    border-radius: 4px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -172,7 +172,7 @@
     font-weight: 700;
 
     color: white;
-    background-color: #E60023;
+    background-color: #4EAD54;
 }
 
 #left_side .section3 .save_from_site .cancel_image_url {
@@ -256,7 +256,7 @@
     font-weight: 700;
 
     color: white;
-    background-color: #7B61FF;
+    background-color:#4EAD54;
     cursor: pointer;
 }
 
