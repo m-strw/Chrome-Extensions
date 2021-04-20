@@ -21,12 +21,12 @@ document.querySelector('#my_board').addEventListener('click', () => {
 
 // Import x3 Images from board for Popup
 
-chrome.runtime.sendMessage({
-    message: 'get_pins'
-}, response => {
-    if (response.message === 'success') {
-        response.payload.forEach(pin_data => {
-            create_pin(pin_data);
-        });
-    }
-});
+// chrome.runtime.sendMessage({
+//     message: 'get_pins'
+// }, response => {
+//     if (response.message === 'success') {
+//         response.payload.forEach(pin_data => {
+//             create_pin(pin_data);
+//         });
+//     }
+// });

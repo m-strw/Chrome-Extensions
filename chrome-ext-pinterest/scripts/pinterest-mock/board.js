@@ -167,7 +167,7 @@ function create_pin(pin_details) {
         new_pin.innerHTML = `<div class="pin_title">${pin_details.title}</div>
 <div class="pin_modal">
     <div class="modal_head">
-        <div class="save_card">Save</div>
+
     </div>
 
     <div class="modal_foot">
@@ -180,13 +180,6 @@ function create_pin(pin_details) {
             </div>
         </a>
 
-        <div class="pint_mock_icon_container">
-            <img src="./images/pinterest-mock/send.png" alt="send" class="pint_mock_icon">
-        </div>
-
-        <div class="pint_mock_icon_container">
-            <img src="./images/pinterest-mock/ellipse.png" alt="edit" class="pint_mock_icon">
-        </div>
     </div>
 </div>
 
