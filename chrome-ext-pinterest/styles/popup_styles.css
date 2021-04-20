@@ -9,9 +9,7 @@ body {
     margin: 0;
     padding: 0;
     width: 400px;
-    height: 500px;
-    /* box-shadow: -7px 19px 34px 0px #000000 15%; */
-
+    height: 450px;
 
 }
 
@@ -71,7 +69,7 @@ add_pin :hover {
 
 #my_board {
     margin: 0px;
-    background-color: #3A474E;
+    background-color: #FF4133;
     font-size: 15px;
     font-weight: 600;
     color: white;

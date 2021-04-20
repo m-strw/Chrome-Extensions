@@ -92,7 +92,6 @@ save_from_site.addEventListener('click', event => {
     } else if (event.target === upload_image_url) {
         const image_url = save_from_site_input.value;
 
-        if (/\.(png|jpg|jpeg|gif)$/i.test(image_url)) {
             fetch(image_url)
                 .then(res => res.blob())
                 .then(res => {
@@ -138,7 +137,7 @@ save_from_site.addEventListener('click', event => {
             upload_image_url.style.display = 'none';
             cancel_image_url.style.display = 'none';
             save_from_site_input.value = ''
-        }
+        
     } else if (event.target === cancel_image_url) {
         save_from_site.children[0].textContent = 'Save From Site';
         save_from_site.style.justifyContent = '';
