@@ -22,7 +22,7 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 
-	z-index: 9999;
+	z-index: 999;
 	background-color: rgba(0, 0, 0, 0.1);
 	opacity: 0;
 	transition-duration: 0.3s;
@@ -87,13 +87,13 @@
 }
 
 .pin_modal .modal_foot .destination {
-	width: 132px;
-	height: 32px;
-	border-radius: 18px;
+	width: 100%;
+	height: 45%;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-
+	padding-bottom: 30px;
+	padding-top: 5px;
 	font-size: 16px;
 	font-weight: 700;
 
@@ -102,8 +102,9 @@
 }
 
 .pin_modal .modal_foot .destination span {
-	overflow: hidden;
-	white-space: nowrap;
+	overflow:visible;
+	white-space: wrap;
+	
 }
 
 .pin_image {
