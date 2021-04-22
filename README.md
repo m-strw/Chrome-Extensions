@@ -3,6 +3,8 @@
 ## The goal 
 Is to build a univeral shopping cart that allows people to shop on anywebsite and collect the wishlist / shopping cart with them.
 
+larger goal is to have a platform where people can find products without having to vist a website to find them. 
+
 
 ## Problem
 When someone is online shopping and they want to have a wish list of iteams they can only do that within that one each website and they want to be able to see all the iteams in one wishlist.
