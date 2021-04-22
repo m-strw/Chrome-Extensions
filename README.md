@@ -1,7 +1,7 @@
 # CE-UniCart
  
 ## The goal 
-Is to build a univeral shopping cart that allows people to shop on anywebsite and collect the wishlist / shopping cart with them.
+Is to build a univeral shopping cart that allows people to shop on anywebsite and collect the wishlist / shopping cart with them and create outfits with the saved items. 
 
 larger goal is to have a platform where people can find products without having to vist a website to find them. 
 
