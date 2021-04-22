@@ -18,8 +18,7 @@ A way to be able to collate all the shopping carts / wishlist in one place to re
 
 
 ## Demo
-https://www.youtube.com/watch?v=UmIkYPpKti4&ab_channel=MattStrawbridge
-
+https://youtu.be/SAUksq-Ye3U
 ## Design
 
 https://www.figma.com/file/LlxXrxDjBmqUpYtO63dKGM/Chrome-Extension-Project?node-id=0%3A1
